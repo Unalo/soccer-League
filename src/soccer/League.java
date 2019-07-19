@@ -3,26 +3,28 @@ import soccer.*;
     public class League {
         public static void main(String[] args) {
 
-           Player player1 = new Player();
-           player1.playerName = "unalo";
+           Player goalKeeper = new Player();
+           goalKeeper.playerName = "Khuzwayo";
 
-           Player player2 = new Player();
-           player2.playerName = "zola";
+           Player RightCenterBack = new Player();
+           RightCenterBack.playerName = "Happy Jele";
 
-           Player player3 = new Player();
-           player3.playerName = "Siyasanga";
+           Player LeftCenterBack = new Player();
+           LeftCenterBack.playerName = "Innocent Maela";
 
-           Player player4 = new Player();
-           player4.playerName = "namelisi";
+           Player centerMid  = new Player();
+           centerMid.playerName = "Musa Nyatama";
 
-           Player player5 = new Player();
-           player5.playerName = "sne";
+           Player CenterMid = new Player();
+           CenterMid.playerName = "Mutswari";
 
+           Player striker = new Player();
+           striker.playerName = "Mulenga";
 
-           Player[] thePlayers = { player1, player2, player3, player4, player5 };
+           Player[] thePlayers = { goalKeeper, RightCenterBack, LeftCenterBack, centerMid, CenterMid, striker };
 
            Team team1 = new Team();
-           team1.teamName = "The Greens";
+           team1.teamName = "Orlando Pirates";
 
            team1.playerArray = thePlayers;
 
@@ -33,24 +35,27 @@ import soccer.*;
 //            }
 
             Team team2 = new Team();
-            team2.teamName = "The Reds";
+            team2.teamName = "Kaizer Chiefs";
 
-            Player player6 = new Player();
-            player6.playerName = "Schtoo";
+            Player goalKeeper2 = new Player();
+            goalKeeper.playerName = "Akpeyi";
 
-            Player player7 = new Player();
-            player7.playerName = "Alakhe";
+            Player centreBack = new Player();
+            centreBack.playerName = "Gordinho";
 
-            Player player8 = new Player();
-            player8.playerName = "Luzuko";
+            Player rightBack = new Player();
+            rightBack.playerName = "Mpahlele";
 
-            Player player9 = new Player();
-            player9.playerName = "lina";
+            Player centerMid2 = new Player();
+            centerMid.playerName = "Katsande";
 
-            Player player10 = new Player();
-            player10.playerName = "Siyabonga";
+            Player leftWing = new Player();
+            leftWing.playerName = "Zulu";
 
-            Player[] thePlayers2 = { player6, player7, player8, player9, player10 };
+            Player striker2 = new Player();
+            striker.playerName = "Billite";
+
+            Player[] thePlayers2 = { goalKeeper2 , centreBack, rightBack, centerMid2, leftWing, striker2 };
 
             team2.playerArray = thePlayers2;
 
@@ -68,17 +73,17 @@ import soccer.*;
             goal1.theTime = 55;
 
             Goal goal2 = new Goal();
-            goal2.thePlayer = currGame.awayTeam.playerArray[1];
+            goal2.thePlayer = currGame.awayTeam.playerArray[4];
             goal2.theTeam = currGame.awayTeam;
             goal2.theTime = 65;
 
             Goal goal3 = new Goal();
-            goal3.thePlayer = currGame.awayTeam.playerArray[0];
+            goal3.thePlayer = currGame.awayTeam.playerArray[1];
             goal3.theTeam = currGame.awayTeam;
             goal3.theTime = 70;
 
             Goal goal4 = new Goal();
-            goal4.thePlayer = currGame.awayTeam.playerArray[1];
+            goal4.thePlayer = currGame.awayTeam.playerArray[4];
             goal4.theTeam = currGame.awayTeam;
             goal4.theTime = 20;
 
